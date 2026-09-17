@@ -31,7 +31,9 @@ YÊU CẦU VỀ DỊCH THUẬT
 
 1. Dịch bằng năng lực ngôn ngữ và khả năng hiểu ngữ cảnh của LLM. Tuyệt đối không dịch máy theo kiểu thay thế từng từ hoặc dịch word-by-word.
 
-2. Trước khi dịch, phải xác định:
+2. Đây là tác vụ chất lượng xuất bản. Không ưu tiên tốc độ. Hãy dành thời gian rà soát từng trang và tự sửa các lỗi phát hiện được trước khi bàn giao.
+
+3. Trước khi dịch, phải xác định:
 
 - Chủ đề và đối tượng độc giả của tài liệu.
 - Cấu trúc tổng thể của tài liệu.
@@ -331,10 +333,3 @@ Khi hoàn thành, hãy cung cấp:
 
 Hãy chủ động thực hiện toàn bộ quy trình. Không dừng lại sau khi tạo bản DOCX lần đầu. Việc tạo file chỉ là bước trung gian; nhiệm vụ chỉ kết thúc sau khi file đã được render, đối chiếu từng trang, sửa lỗi và kiểm tra lại.
 ```
-
-## Tùy chọn ưu tiên chất lượng
-
-Có thể thêm câu sau vào đầu prompt:
-
-> Đây là tác vụ chất lượng xuất bản. Không ưu tiên tốc độ. Hãy dành thời gian rà soát từng trang và tự sửa các lỗi phát hiện được trước khi bàn giao.
-
